@@ -1,5 +1,16 @@
 # senzing-rpm
 
+## Overview
+
+Directories used:
+
+1. /etc/opt/senzing
+1. /usr/local/bin
+1. /var/lib/senzing
+    1. /var/lib/senzing/sqlite
+
+## Details
+
 | Old location | New location |
 |--------------|--------------|
 | /opt/senzing/db2/clidriver/adm/db2trc|
@@ -36,8 +47,8 @@
 | /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2sql.mo|
 | /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2sqlh.mo|
 | /opt/senzing/db2/clidriver/msg/en_US.iso88591|
-| /opt/senzing/db2/jdbc/db2jcc.jar|
-| /opt/senzing/db2/jdbc/db2jcc4.jar|
+| /opt/senzing/db2/jdbc/db2jcc.jar|/usr/share/java/db2jcc.jar
+| /opt/senzing/db2/jdbc/db2jcc4.jar|/usr/share/java/db2jcc4.jar
 | /opt/senzing/db2/jdbc/sqlj.zip|
 | /opt/senzing/db2/jdbc/sqlj4.zip|
 | /opt/senzing/g2/bin/saltadm|/usr/local/bin/saltadm|
@@ -143,7 +154,7 @@
 | /opt/senzing/g2/data/thaiRegRule.ibm|
 | /opt/senzing/g2/lib/debian/libcrypto.so.10|
 | /opt/senzing/g2/lib/debian/libssl.so.10|
-| /opt/senzing/g2/lib/g2.jar|
+| /opt/senzing/g2/lib/g2.jar|/usr/share/java/g2.jar|
 | /opt/senzing/g2/lib/libanalytics.so|
 | /opt/senzing/g2/lib/libboost_atomic.so.1.68.0|
 | /opt/senzing/g2/lib/libboost_atomic.so|
