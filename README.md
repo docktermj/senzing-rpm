@@ -8,6 +8,8 @@
 
 ## Guiding principles
 
+The following "guiding principles" apply to `/opt` AddOns:
+
 1. Use of `/opt`, `/var/opt`, and `/etc/opt`:
     > Under no circumstances are other package files to exist outside the /opt, /var/opt, and /etc/opt hierarchies except for those package files that must reside in specific locations within the filesystem tree in order to function properly. For example, device lock files in /var/lock and devices in /dev. Distributions may install software in /opt, but must not modify or delete software installed by the local system administrator without the assent of the local system administrator.
     > -- *[Linux Filesystem Hierarchy: 1.13 /opt](https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/opt.html)*
@@ -25,12 +27,12 @@
 ## Use in Docker
 
 1. To share static files (i.e. can be mounted as Read-Only).
-   **Note:** This saves 3GB per running container. 
+   **Note:** This saves 3GB per running container.
 
     ```console
     sudo docker run \
     --volume ${MY_STATIC_DIR}:/opt/senzing \
-    senzing/xxxxx    
+    senzing/xxxxx
     ```
 
 1. To share configuration:
@@ -38,7 +40,7 @@
     ```console
     sudo docker run \
     --volume ${MY_CONFIG_DIR}:/etc/opt/senzing \
-    senzing/xxxxx    
+    senzing/xxxxx
     ```
 
 1. To share files that can be changed by programs running in the container
@@ -47,7 +49,7 @@
     ```console
     sudo docker run \
     --volume ${MY_VAR_DIR}:/var/opt/lib/senzing \
-    senzing/xxxxx    
+    senzing/xxxxx
     ```
 
 1. All together:
@@ -57,13 +59,14 @@
     --volume ${MY_STATIC_DIR}:/opt/senzing \
     --volume ${MY_CONFIG_DIR}:/etc/opt/senzing \
     --volume ${MY_VAR_DIR}:/var/opt/lib/senzing \
-    senzing/xxxxx    
+    senzing/xxxxx
     ```
 
 1. This allows containers to share static code, but different configuration (i.e. different database instances)
 
 ## Questions
 
+1. Are we product (`/opt`) or part of system?
 1. Can we use "requires/dependencies" to use transitive package management?
 
 ## References
