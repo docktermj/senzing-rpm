@@ -4,6 +4,7 @@
 
 ## Content
 
+1. [chef](chef.md)
 1. [helm](helm.md)
 1. [kafka](kafka.md)
 1. [my-sql-connector-java](mysql-connector-java.md)
