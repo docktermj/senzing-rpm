@@ -414,3 +414,7 @@ Directories used:
 1. Use of `/var/local`:
     > Variable data for local programs (i.e., programs that have been installed by the system administrator) that are installed in /usr/local (as opposed to a remotely mounted '/var' partition). Note that even locally installed programs should use the other /var directories if they are appropriate, e.g., /var/lock.
     > -- *[Linux Filesystem Hierarchy:  1.18 /var](https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/var.html)*
+
+## Questions
+
+1. Can we use "requires/dependencies" to use transitive package management?
