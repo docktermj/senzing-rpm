@@ -403,6 +403,10 @@ Directories used:
 
 1. This allows containers to share static code, but different configuration (i.e. different database instances)
 
+## Example RPMs
+
+1. [Example RPMs](docs/example-rpms)
+
 ## Guiding principles
 
 1. Use of `/opt`, `/var/opt`, and `/etc/opt`:
