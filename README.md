@@ -4,53 +4,56 @@
 
 Directories used:
 
-1. /etc/opt/senzing
-1. /opt/senzing
-1. /var/opt/lib/senzing
-1. /var/opt/lib/senzing/sqlite
+1. **Configuration**
+    1. /etc/opt/senzing
+1. **Static files**    
+    1. /opt/senzing
+1. **Varying files**    
+    1. /var/opt/lib/senzing
+    1. /var/opt/lib/senzing/sqlite
 
 ## Details
 
 | Old location | New location |
 |--------------|--------------|
-| /opt/senzing/db2/clidriver/adm/db2trc|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/adm|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/bin/db2dsdcfgfill|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/bin/db2ldcfg|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/bin/db2lddrg|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/bin/db2level|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/cfg/db2cli.ini.sample|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/cfg/db2dsdriver.cfg.sample|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/cfg/db2dsdriver.xsd|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/conv/alt/08501252.cnv|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/conv/alt/12520850.cnv|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/conv/alt/IBM00850.ucs|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/conv/alt/IBM01252.ucs|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/include/sql.h|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/include/sqlca.h|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/include/sqlcli.h|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/include/sqlcli1.h|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/include/sqlsystm.h|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/lib/libdb2.so.1|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/lib/libdb2.so|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/lib/libdb2o.so.1|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/lib/libdb2o.so|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2adm.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2admh.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2cli.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clia1.lst|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clias.lst|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clih.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clit.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clp.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2diag.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2sql.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2sqlh.mo|/opt/senzing/db2/...|
-| /opt/senzing/db2/clidriver/msg/en_US.iso88591|/opt/senzing/db2/...|
-| /opt/senzing/db2/jdbc/db2jcc.jar|/opt/senzing/db2/...|
-| /opt/senzing/db2/jdbc/db2jcc4.jar|/opt/senzing/db2/...|
-| /opt/senzing/db2/jdbc/sqlj.zip|/opt/senzing/db2/...|
-| /opt/senzing/db2/jdbc/sqlj4.zip|/opt/senzing/db2/...|
+| /opt/senzing/db2/clidriver/adm/db2trc|-|
+| /opt/senzing/db2/clidriver/adm|-|
+| /opt/senzing/db2/clidriver/bin/db2dsdcfgfill|-|
+| /opt/senzing/db2/clidriver/bin/db2ldcfg|-|
+| /opt/senzing/db2/clidriver/bin/db2lddrg|-|
+| /opt/senzing/db2/clidriver/bin/db2level|-|
+| /opt/senzing/db2/clidriver/cfg/db2cli.ini.sample|-|
+| /opt/senzing/db2/clidriver/cfg/db2dsdriver.cfg.sample|-|
+| /opt/senzing/db2/clidriver/cfg/db2dsdriver.xsd|-|
+| /opt/senzing/db2/clidriver/conv/alt/08501252.cnv|-|
+| /opt/senzing/db2/clidriver/conv/alt/12520850.cnv|-|
+| /opt/senzing/db2/clidriver/conv/alt/IBM00850.ucs|-|
+| /opt/senzing/db2/clidriver/conv/alt/IBM01252.ucs|-|
+| /opt/senzing/db2/clidriver/include/sql.h|-|
+| /opt/senzing/db2/clidriver/include/sqlca.h|-|
+| /opt/senzing/db2/clidriver/include/sqlcli.h|-|
+| /opt/senzing/db2/clidriver/include/sqlcli1.h|-|
+| /opt/senzing/db2/clidriver/include/sqlsystm.h|-|
+| /opt/senzing/db2/clidriver/lib/libdb2.so.1|-|
+| /opt/senzing/db2/clidriver/lib/libdb2.so|-|
+| /opt/senzing/db2/clidriver/lib/libdb2o.so.1|-|
+| /opt/senzing/db2/clidriver/lib/libdb2o.so|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2adm.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2admh.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2cli.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clia1.lst|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clias.lst|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clih.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clit.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2clp.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2diag.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2sql.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591/db2sqlh.mo|-|
+| /opt/senzing/db2/clidriver/msg/en_US.iso88591|-|
+| /opt/senzing/db2/jdbc/db2jcc.jar|-|
+| /opt/senzing/db2/jdbc/db2jcc4.jar|-|
+| /opt/senzing/db2/jdbc/sqlj.zip|-|
+| /opt/senzing/db2/jdbc/sqlj4.zip|-|
 | /opt/senzing/g2/bin/saltadm| - |
 | /opt/senzing/g2/bin/ssadm| - |
 | /opt/senzing/g2/data/addressParserMetaData.xml| - |
