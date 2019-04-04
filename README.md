@@ -6,8 +6,9 @@ Directories used:
 
 1. /etc/opt/senzing
 1. /usr/local/bin
+1. /usr/share/java
 1. /var/lib/senzing
-    1. /var/lib/senzing/sqlite
+1. /var/lib/senzing/sqlite
 
 ## Details
 
@@ -363,3 +364,12 @@ Directories used:
 | /opt/senzing/g2/setupEnv|
 | /opt/senzing/g2/sqldb/G2C.db|/var/lib/senzing/sqlite/G2C.db|
 | /opt/senzing/g2/util/NewReleaseCheck.sh|
+
+
+## Guiding principles
+
+> Under no circumstances are other package files to exist outside the /opt, /var/opt, and /etc/opt hierarchies except for those package files that must reside in specific locations within the filesystem tree in order to function properly. For example, device lock files in /var/lock and devices in /dev. Distributions may install software in /opt, but must not modify or delete software installed by the local system administrator without the assent of the local system administrator. 
+> -- *[Linux Filesystem Hierarchy: 1.13 /opt](https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/opt.html)*
+
+ 
+
