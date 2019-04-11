@@ -300,7 +300,6 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/python/demo/sample/sample_company.json| - |
 | /opt/senzing/g2/python/demo/sample/sample_person.csv| - |
 | /opt/senzing/g2/python/demo/sample/sample_person.json| - |
-| /opt/senzing/g2/python/demo/sample| - |
 | /opt/senzing/g2/python/DumpStack.py| - |
 | /opt/senzing/g2/python/G2AnonModule.py| - |
 | /opt/senzing/g2/python/G2Audit.py| - |
