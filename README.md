@@ -77,3 +77,4 @@ The following "guiding principles" apply to `/opt` AddOns:
 1. [Filesystem Hierarchy Standard, LSB Workgroup, The Linux Foundation](https://refspecs.linuxfoundation.org/FHS_3.0/fhs-3.0.pdf)
 1. [The Linux Documentation Project: Chapter 1. Linux Filesystem Hierarchy](https://www.tldp.org/LDP/Linux-Filesystem-Hierarchy/html/c23.html)
 1. [The Linux Directory Structure, Explained](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/)
+1. [RPM Dependencies](https://rpm.org/user_doc/dependencies.html)

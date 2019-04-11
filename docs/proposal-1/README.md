@@ -80,7 +80,7 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/customSn.txt| - |
 | /opt/senzing/g2/data/cyrillicOnTransRule.ibm| - |
 | /opt/senzing/g2/data/cyrillicTransRule.ibm| - |
-| /opt/senzing/g2/data/defaultGNRCP.config| - |
+| /opt/senzing/g2/data/defaultGNRCP.config| ???? |
 | /opt/senzing/g2/data/errules_normal.umf| - |
 | /opt/senzing/g2/data/errules_optimistic.umf| - |
 | /opt/senzing/g2/data/errules_pessimistic.umf| - |
@@ -88,8 +88,8 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/flemish_germanRegRule.ibm| - |
 | /opt/senzing/g2/data/frenchRegRule.ibm| - |
 | /opt/senzing/g2/data/g2BuildVersion.json| - |
-| /opt/senzing/g2/data/G2C.db| - |
-| /opt/senzing/g2/data/g2config.json| - |
+| /opt/senzing/g2/data/G2C.db| ???? |
+| /opt/senzing/g2/data/g2config.json| ???? |
 | /opt/senzing/g2/data/g2core-schema-db2-create.sql| - |
 | /opt/senzing/g2/data/g2core-schema-db2-upgrade-1.1-to-1.2.sql| - |
 | /opt/senzing/g2/data/g2core-schema-db2-upgrade-1.2-to-1.3.sql| - |
@@ -153,7 +153,7 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/russianOnRegRule.ibm| - |
 | /opt/senzing/g2/data/russianRegRule.ibm| - |
 | /opt/senzing/g2/data/snv.ibm| - |
-| /opt/senzing/g2/data/stb.config| - |
+| /opt/senzing/g2/data/stb.config| ???? |
 | /opt/senzing/g2/data/swasianRegRule.ibm| - |
 | /opt/senzing/g2/data/taq.ibm| - |
 | /opt/senzing/g2/data/terms.ibm| - |
@@ -306,7 +306,7 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/python/G2Audit.py| - |
 | /opt/senzing/g2/python/G2AuditModule.py| - |
 | /opt/senzing/g2/python/G2Command.py| - |
-| /opt/senzing/g2/python/g2config.json| - |
+| /opt/senzing/g2/python/g2config.json| ???? |
 | /opt/senzing/g2/python/G2Config.py| - |
 | /opt/senzing/g2/python/G2ConfigModule.py| - |
 | /opt/senzing/g2/python/G2ConfigTables.py| - |
