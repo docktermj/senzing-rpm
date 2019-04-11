@@ -14,6 +14,9 @@ Directories used:
 
 ## Details
 
+In "New location", a dash "`-`" means no change from "Old location".
+
+
 | Old location | New location |
 |--------------|--------------|
 | /opt/senzing/db2/clidriver/adm/db2trc|-|
@@ -22,9 +25,9 @@ Directories used:
 | /opt/senzing/db2/clidriver/bin/db2ldcfg|-|
 | /opt/senzing/db2/clidriver/bin/db2lddrg|-|
 | /opt/senzing/db2/clidriver/bin/db2level|-|
-| /opt/senzing/db2/clidriver/cfg/db2cli.ini.sample|-|
-| /opt/senzing/db2/clidriver/cfg/db2dsdriver.cfg.sample|-|
-| /opt/senzing/db2/clidriver/cfg/db2dsdriver.xsd|-|
+| /opt/senzing/db2/clidriver/cfg/db2cli.ini.sample| ???? |
+| /opt/senzing/db2/clidriver/cfg/db2dsdriver.cfg.sample| ???? |
+| /opt/senzing/db2/clidriver/cfg/db2dsdriver.xsd| ???? |
 | /opt/senzing/db2/clidriver/conv/alt/08501252.cnv|-|
 | /opt/senzing/db2/clidriver/conv/alt/12520850.cnv|-|
 | /opt/senzing/db2/clidriver/conv/alt/IBM00850.ucs|-|
