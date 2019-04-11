@@ -324,7 +324,7 @@ Directories used:
 | /opt/senzing/g2/python/G2Project.py| - |
 | /opt/senzing/g2/python/g2purge.umf| - |
 | /opt/senzing/g2/python/G2S3.py| - |
-| /opt/senzing/g2/python/g2silent.cfg| - |
+| /opt/senzing/g2/python/g2silent.cfg| ???? |
 | /opt/senzing/g2/README.1ST| - |
 | /opt/senzing/g2/sdk/c/g2PluginInterface.h| - |
 | /opt/senzing/g2/sdk/c/libg2.h| - |
