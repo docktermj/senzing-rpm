@@ -360,4 +360,4 @@ Directories used:
 | /opt/senzing/g2/sdk/streams/G2CommonToolkit.tgz| - |
 | /opt/senzing/g2/setupEnv| - |
 | /opt/senzing/g2/sqldb/G2C.db|/var/opt/lib/senzing/sqlite/G2C.db|
-| /opt/senzing/g2/util/NewReleaseCheck.sh| - |
+| /opt/senzing/g2/util/NewReleaseCheck.sh| /opt/senzing/g2/bin/NewReleaseCheck.sh |
