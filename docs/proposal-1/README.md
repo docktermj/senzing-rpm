@@ -144,7 +144,6 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/libpostal/transliteration| - |
 | /opt/senzing/g2/data/libpostal| - |
 | /opt/senzing/g2/data/mapping-templates/default-templates.tpl| - |
-| /opt/senzing/g2/data/mapping-templates| - |
 | /opt/senzing/g2/data/onv.ibm| - |
 | /opt/senzing/g2/data/polishOnRegRule.ibm| - |
 | /opt/senzing/g2/data/polishRegRule.ibm| - |
