@@ -17,8 +17,8 @@ Directories used:
 In "New location", a dash "`-`" means no change from "Old location". File list captured 5/6 from senzing-1.9.19126-1.x86_64.rpm
 
 
-| Old location | New location |
-|--------------|--------------|
+| Old location | New location | Notes |
+|--------------|--------------|--------------|
 | /opt/senzing/g2/LICENSE |-|
 | /opt/senzing/g2/NOTICES |-|
 | /opt/senzing/g2/README.1ST |-|
@@ -26,15 +26,15 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/bin/ssadm |-|
 | /opt/senzing/g2/data/CFG_STB_ASSIGN.csv |-|
 | /opt/senzing/g2/data/CFG_STB_MASTER.csv |-|
-| /opt/senzing/g2/data/G2C.db |???|
-| /opt/senzing/g2/data/G2Module.ini | /etc/opt/senzing/G2Module.ini |
-| /opt/senzing/g2/data/G2Project.ini | /etc/opt/senzing/G2Project.ini |
+| /opt/senzing/g2/data/G2C.db |???| This also exists in g2/sqldb |
+| /opt/senzing/g2/data/G2Module.ini | /etc/opt/senzing/G2Module.ini | We have two G2Module.ini currently, one in data and one in python. this would consoldate into on in etc |
+| /opt/senzing/g2/data/G2Project.ini | /etc/opt/senzing/G2Project.ini | We have two G2Project.ini currently, one in data and one in python. this would consoldate into on in etc |
 | /opt/senzing/g2/data/addressParserMetaData.xml |-|
 | /opt/senzing/g2/data/angloOnRegRule.ibm |-|
 | /opt/senzing/g2/data/angloRegRule.ibm |-|
 | /opt/senzing/g2/data/anyTransRule.ibm |-|
 | /opt/senzing/g2/data/arabicTransRule.ibm |-|
-| /opt/senzing/g2/data/cfgVariant.json |???|
+| /opt/senzing/g2/data/cfgVariant.json | /etc/opt/senzing/cfgVariant.json|
 | /opt/senzing/g2/data/chineseNativeOnRegRule.ibm |-|
 | /opt/senzing/g2/data/chineseOnRegRule.ibm |-|
 | /opt/senzing/g2/data/chineseOnTransRule.ibm |-|
@@ -43,9 +43,9 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/data/cnv.ibm |-|
 | /opt/senzing/g2/data/conv.ibm |-|
 | /opt/senzing/g2/data/ctaq.ibm |-|
-| /opt/senzing/g2/data/customGn.txt |???|
-| /opt/senzing/g2/data/customOn.txt |???|
-| /opt/senzing/g2/data/customSn.txt |???|
+| /opt/senzing/g2/data/customGn.txt | /etc/opt/senzing/customGn.txt |
+| /opt/senzing/g2/data/customOn.txt | /etc/opt/senzing/customOn.txt |
+| /opt/senzing/g2/data/customSn.txt | /etc/opt/senzing/customSn.txt |
 | /opt/senzing/g2/data/cyrillicOnTransRule.ibm |-|
 | /opt/senzing/g2/data/cyrillicTransRule.ibm |-|
 | /opt/senzing/g2/data/defaultGNRCP.config |???|
@@ -57,7 +57,7 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/data/frenchRegRule.ibm |-|
 | /opt/senzing/g2/data/g2BuildVersion.json |-|
 | /opt/senzing/g2/data/g2SifterRules.ibm |-|
-| /opt/senzing/g2/data/g2config.json |???|
+| /opt/senzing/g2/data/g2config.json |/etc/opt/senzing/g2config.json| We have two g2config.json currently, one in data and one in python. this would consoldate into on in etc |
 | /opt/senzing/g2/data/g2core-schema-db2-create.sql |-|
 | /opt/senzing/g2/data/g2core-schema-db2-upgrade-1.1-to-1.2.sql |-|
 | /opt/senzing/g2/data/g2core-schema-db2-upgrade-1.2-to-1.3.sql |-|
@@ -264,25 +264,25 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/python/G2Hasher.py |-|
 | /opt/senzing/g2/python/G2HasherModule.py |-|
 | /opt/senzing/g2/python/G2Loader.py |-|
-| /opt/senzing/g2/python/G2Module.ini | /etc/opt/senzing/G2Module.ini (we have two currently, on in data and one in python, this would consoldate into on in etc) |
+| /opt/senzing/g2/python/G2Module.ini | /etc/opt/senzing/G2Module.ini |We have two G2Module.ini currently, one in data and one in python. this would consoldate into on in etc|
 | /opt/senzing/g2/python/G2Module.py |-|
 | /opt/senzing/g2/python/G2Product.py |-|
 | /opt/senzing/g2/python/G2ProductModule.py |-|
-| /opt/senzing/g2/python/G2Project.ini | /etc/opt/senzing/G2Module.ini (we have two currently, on in data and one in python, this would consoldate into on in etc) |
+| /opt/senzing/g2/python/G2Project.ini | We have two G2Project.ini currently, one in data and one in python. this would consoldate into on in etc |
 | /opt/senzing/g2/python/G2Project.py |-|
 | /opt/senzing/g2/python/G2S3.py |-|
-| /opt/senzing/g2/python/demo/ofac/cust.json |/var/opt/senzing/g2/python/demo/ofac/cust.json (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/ofac/ofac.json |/var/opt/senzing/g2/python/demo/ofac/ofac.json (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/ofac/project.json | /var/opt/senzing/g2/python/demo/ofac/project.json (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/sample/project.csv | /var/opt/senzing/g2/python/demo/sample/project.csv (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/sample/project.json | /var/opt/senzing/g2/python/demo/sample/project.json (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/sample/sample_company.csv | /var/opt/senzing/g2/python/demo/sample/sample_company.csv (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/sample/sample_company.json | /var/opt/senzing/g2/python/demo/sample/sample_company.json (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/sample/sample_person.csv | /var/opt/senzing/g2/python/demo/sample/sample_person.csv (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/demo/sample/sample_person.json | /var/opt/senzing/g2/python/demo/sample/sample_person.json (or etc since they could be demo config files?) |
-| /opt/senzing/g2/python/g2config.json | /etc/opt/senzing/g2config.json |
+| /opt/senzing/g2/python/demo/ofac/cust.json |/var/opt/senzing/g2/python/demo/ofac/cust.json | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/ofac/ofac.json |/var/opt/senzing/g2/python/demo/ofac/ofac.json | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/ofac/project.json | /var/opt/senzing/g2/python/demo/ofac/project.json | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/sample/project.csv | /var/opt/senzing/g2/python/demo/sample/project.csv | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/sample/project.json | /var/opt/senzing/g2/python/demo/sample/project.json | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/sample/sample_company.csv | /var/opt/senzing/g2/python/demo/sample/sample_company.csv | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/sample/sample_company.json | /var/opt/senzing/g2/python/demo/sample/sample_company.json | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/sample/sample_person.csv | /var/opt/senzing/g2/python/demo/sample/sample_person.csv | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/demo/sample/sample_person.json | /var/opt/senzing/g2/python/demo/sample/sample_person.json | (or etc since they could be demo config files?) |
+| /opt/senzing/g2/python/g2config.json | /etc/opt/senzing/g2config.json | We have two g2config.json currently, one in data and one in python. this would consoldate into on in etc |
 | /opt/senzing/g2/python/g2purge.umf |-|
-| /opt/senzing/g2/python/g2silent.cfg | /etc/opt/senzing/g2silent.cfg |
+| /opt/senzing/g2/python/g2silent.cfg | /etc/opt/senzing/g2silent.cfg | This doesn't exist in data, only in python. Moving it to etc would make it product wide. Is that ok? |
 | /opt/senzing/g2/sdk/c/g2PluginInterface.h |-|
 | /opt/senzing/g2/sdk/c/libg2.h |-|
 | /opt/senzing/g2/sdk/c/libg2audit.h |-|
@@ -316,6 +316,6 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/sdk/python/old/G2ProductModule.py |-|
 | /opt/senzing/g2/sdk/streams/G2CommonToolkit.tgz |-|
 | /opt/senzing/g2/setupEnv |-|
-| /opt/senzing/g2/sqldb/G2C.db | /var/opt/lib/senzing/sqlite/G2C.db |
+| /opt/senzing/g2/sqldb/G2C.db | /var/opt/lib/senzing/sqlite/G2C.db | This also exists in data should it? |
 | /opt/senzing/g2/util/NewReleaseCheck.sh | /opt/senzing/g2/NewReleaseCheck.sh |
 
