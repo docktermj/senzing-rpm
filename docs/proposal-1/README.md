@@ -66,7 +66,7 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/arabicTransRule.ibm| - |
 | /opt/senzing/g2/data/CFG_STB_ASSIGN.csv| - |
 | /opt/senzing/g2/data/CFG_STB_MASTER.csv| - |
-| /opt/senzing/g2/data/cfgVariant.json| - |
+| /opt/senzing/g2/data/cfgVariant.json| ??? |
 | /opt/senzing/g2/data/chineseNativeOnRegRule.ibm| - |
 | /opt/senzing/g2/data/chineseOnRegRule.ibm| - |
 | /opt/senzing/g2/data/chineseOnTransRule.ibm| - |
@@ -75,9 +75,9 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/cnv.ibm| - |
 | /opt/senzing/g2/data/conv.ibm| - |
 | /opt/senzing/g2/data/ctaq.ibm| - |
-| /opt/senzing/g2/data/customGn.txt| - |
-| /opt/senzing/g2/data/customOn.txt| - |
-| /opt/senzing/g2/data/customSn.txt| - |
+| /opt/senzing/g2/data/customGn.txt| ??? |
+| /opt/senzing/g2/data/customOn.txt| ??? |
+| /opt/senzing/g2/data/customSn.txt| ??? |
 | /opt/senzing/g2/data/cyrillicOnTransRule.ibm| - |
 | /opt/senzing/g2/data/cyrillicTransRule.ibm| - |
 | /opt/senzing/g2/data/defaultGNRCP.config| ???? |
@@ -103,8 +103,8 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/data/g2core-schema-sqlite-upgrade-1.1-to-1.2.sql| - |
 | /opt/senzing/g2/data/g2core-schema-sqlite-upgrade-1.2-to-1.3.sql| - |
 | /opt/senzing/g2/data/g2core-schema-sqlite-upgrade-1.3-to-1.4.sql| - |
-| /opt/senzing/g2/data/G2Module.ini|/etc/opt/senzing/G2Module.ini|
-| /opt/senzing/g2/data/G2Project.ini|/etc/opt/senzing/G2Project.ini|
+| /opt/senzing/g2/data/G2Module.ini| /etc/opt/senzing/G2Module.ini|
+| /opt/senzing/g2/data/G2Project.ini| /etc/opt/senzing/G2Project.ini|
 | /opt/senzing/g2/data/g2SifterRules.ibm| - |
 | /opt/senzing/g2/data/genericOnRegRule.ibm| - |
 | /opt/senzing/g2/data/genericRegRule.ibm| - |
@@ -288,16 +288,16 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/LICENSE| - |
 | /opt/senzing/g2/NOTICES| - |
 | /opt/senzing/g2/python/CompressedFile.py| - |
-| /opt/senzing/g2/python/demo/ofac/cust.json| - |
-| /opt/senzing/g2/python/demo/ofac/ofac.json| - |
-| /opt/senzing/g2/python/demo/ofac/project.json| - |
-| /opt/senzing/g2/python/demo/ofac| - |
-| /opt/senzing/g2/python/demo/sample/project.csv| - |
-| /opt/senzing/g2/python/demo/sample/project.json| - |
-| /opt/senzing/g2/python/demo/sample/sample_company.csv| - |
-| /opt/senzing/g2/python/demo/sample/sample_company.json| - |
-| /opt/senzing/g2/python/demo/sample/sample_person.csv| - |
-| /opt/senzing/g2/python/demo/sample/sample_person.json| - |
+| /opt/senzing/g2/python/demo/ofac/cust.json| /var/opt/senzing/demo/ofac ??? |
+| /opt/senzing/g2/python/demo/ofac/ofac.json| /var/opt/senzing/demo/ofac ??? |
+| /opt/senzing/g2/python/demo/ofac/project.json| /var/opt/senzing/demo/ofac ??? |
+| /opt/senzing/g2/python/demo/ofac| /var/opt/senzing/demo/ofac ??? |
+| /opt/senzing/g2/python/demo/sample/project.csv|  /var/opt/senzing/demo/sample??? |
+| /opt/senzing/g2/python/demo/sample/project.json| /var/opt/senzing/demo/sample??? |
+| /opt/senzing/g2/python/demo/sample/sample_company.csv| /var/opt/senzing/demo/sample??? |
+| /opt/senzing/g2/python/demo/sample/sample_company.json| /var/opt/senzing/demo??? |
+| /opt/senzing/g2/python/demo/sample/sample_person.csv| /var/opt/senzing/demo??? |
+| /opt/senzing/g2/python/demo/sample/sample_person.json| /var/opt/senzing/demo??? |
 | /opt/senzing/g2/python/DumpStack.py| - |
 | /opt/senzing/g2/python/G2AnonModule.py| - |
 | /opt/senzing/g2/python/G2Audit.py| - |
@@ -320,7 +320,7 @@ In "New location", a dash "`-`" means no change from "Old location".
 | /opt/senzing/g2/python/G2Module.py| - |
 | /opt/senzing/g2/python/G2Product.py| - |
 | /opt/senzing/g2/python/G2ProductModule.py| - |
-| /opt/senzing/g2/python/G2Project.ini|/etc/opt/senzing/G2Module.ini |
+| /opt/senzing/g2/python/G2Project.ini| /etc/opt/senzing/G2Module.ini |
 | /opt/senzing/g2/python/G2Project.py| - |
 | /opt/senzing/g2/python/g2purge.umf| - |
 | /opt/senzing/g2/python/G2S3.py| - |
