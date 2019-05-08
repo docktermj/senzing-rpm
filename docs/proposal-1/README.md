@@ -34,7 +34,7 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/data/angloRegRule.ibm |-|
 | /opt/senzing/g2/data/anyTransRule.ibm |-|
 | /opt/senzing/g2/data/arabicTransRule.ibm |-|
-| /opt/senzing/g2/data/cfgVariant.json | /etc/opt/senzing/cfgVariant.json|
+| /opt/senzing/g2/data/cfgVariant.json |-|
 | /opt/senzing/g2/data/chineseNativeOnRegRule.ibm |-|
 | /opt/senzing/g2/data/chineseOnRegRule.ibm |-|
 | /opt/senzing/g2/data/chineseOnTransRule.ibm |-|
@@ -48,7 +48,7 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/data/customSn.txt | /etc/opt/senzing/customSn.txt |
 | /opt/senzing/g2/data/cyrillicOnTransRule.ibm |-|
 | /opt/senzing/g2/data/cyrillicTransRule.ibm |-|
-| /opt/senzing/g2/data/defaultGNRCP.config |???|
+| /opt/senzing/g2/data/defaultGNRCP.config | /etc/opt/senzing/defaultGNRCP.config |
 | /opt/senzing/g2/data/errules_normal.umf |-|
 | /opt/senzing/g2/data/errules_optimistic.umf |-|
 | /opt/senzing/g2/data/errules_pessimistic.umf |-|
@@ -111,7 +111,7 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/data/russianOnRegRule.ibm |-|
 | /opt/senzing/g2/data/russianRegRule.ibm |-|
 | /opt/senzing/g2/data/snv.ibm |-|
-| /opt/senzing/g2/data/stb.config |???? |
+| /opt/senzing/g2/data/stb.config | /etc/opt/senzing/stb.config |
 | /opt/senzing/g2/data/swasianRegRule.ibm |-|
 | /opt/senzing/g2/data/taq.ibm |-|
 | /opt/senzing/g2/data/terms.ibm |-|
@@ -317,5 +317,5 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/sdk/streams/G2CommonToolkit.tgz |-|
 | /opt/senzing/g2/setupEnv |-|
 | /opt/senzing/g2/sqldb/G2C.db | /var/opt/lib/senzing/sqlite/G2C.db | This also exists in data should it? |
-| /opt/senzing/g2/util/NewReleaseCheck.sh | /opt/senzing/g2/NewReleaseCheck.sh |
+| /opt/senzing/g2/util/NewReleaseCheck.sh | - |
 
