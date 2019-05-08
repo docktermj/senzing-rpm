@@ -24,9 +24,9 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/README.1ST |-|
 | /opt/senzing/g2/bin/saltadm |-|
 | /opt/senzing/g2/bin/ssadm |-|
-| /opt/senzing/g2/data/CFG_STB_ASSIGN.csv |-|
-| /opt/senzing/g2/data/CFG_STB_MASTER.csv |-|
-| /opt/senzing/g2/data/G2C.db |???| This also exists in g2/sqldb |
+| /opt/senzing/g2/data/CFG_STB_ASSIGN.csv |remove|
+| /opt/senzing/g2/data/CFG_STB_MASTER.csv |remove|
+| /opt/senzing/g2/data/G2C.db |-| This also exists in g2/sqldb |
 | /opt/senzing/g2/data/G2Module.ini | /etc/opt/senzing/G2Module.ini | We have two G2Module.ini currently, one in data and one in python. this would consoldate into on in etc |
 | /opt/senzing/g2/data/G2Project.ini | /etc/opt/senzing/G2Project.ini | We have two G2Project.ini currently, one in data and one in python. this would consoldate into on in etc |
 | /opt/senzing/g2/data/addressParserMetaData.xml |-|
@@ -49,9 +49,9 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/data/cyrillicOnTransRule.ibm |-|
 | /opt/senzing/g2/data/cyrillicTransRule.ibm |-|
 | /opt/senzing/g2/data/defaultGNRCP.config | /etc/opt/senzing/defaultGNRCP.config |
-| /opt/senzing/g2/data/errules_normal.umf |-|
-| /opt/senzing/g2/data/errules_optimistic.umf |-|
-| /opt/senzing/g2/data/errules_pessimistic.umf |-|
+| /opt/senzing/g2/data/errules_normal.umf |remove|
+| /opt/senzing/g2/data/errules_optimistic.umf |remove|
+| /opt/senzing/g2/data/errules_pessimistic.umf |remove|
 | /opt/senzing/g2/data/farsiRegRule.ibm |-|
 | /opt/senzing/g2/data/flemish_germanRegRule.ibm |-|
 | /opt/senzing/g2/data/frenchRegRule.ibm |-|
@@ -316,6 +316,6 @@ In "New location", a dash "`-`" means no change from "Old location". File list c
 | /opt/senzing/g2/sdk/python/old/G2ProductModule.py |-|
 | /opt/senzing/g2/sdk/streams/G2CommonToolkit.tgz |-|
 | /opt/senzing/g2/setupEnv |-|
-| /opt/senzing/g2/sqldb/G2C.db | /var/opt/lib/senzing/sqlite/G2C.db | This also exists in data should it? |
+| /opt/senzing/g2/sqldb/G2C.db | /var/opt/senzing/sqlite/G2C.db | This also exists in data should it? |
 | /opt/senzing/g2/util/NewReleaseCheck.sh | - |
 
